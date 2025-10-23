@@ -24,3 +24,7 @@ lang: "es-MX"
   src="https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/assets/Libro_Paradigma_TCDS.pdf"
   width="100%" height="900" style="border:none">
 </iframe>
+[📘 Abrir Libro Paradigma TCDS](https://geozunac3536-jpg.github.io/TCDS-FARO/assets/Libro_Paradigma_TCDS.pdf)
+<iframe
+  src="https://geozunac3536-jpg.github.io/TCDS-FARO/assets/Libro_Paradigma_TCDS.pdf"
+  width="100%" height="900" style="border:none"></iframe>
