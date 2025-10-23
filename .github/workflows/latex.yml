@@ -1,0 +1,39 @@
+name: build-book
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'book/**'
+      - '.github/workflows/latex.yml'
+jobs:
+  latex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: book
+          root_file: TCDS_Obra_Canonica.tex
+          latexmk_use_xelatex: true
+          extra_system_packages: "ghostscript"
+      - name: Copy PDF to docs/assets
+        run: |
+          mkdir -p docs/assets
+          cp book/TCDS_Obra_Canonica.pdf docs/assets/Libro_Paradigma_TCDS.pdf
+      - name: Upload artifact (PDF)
+        uses: actions/upload-artifact@v4
+        with:
+          name: Libro_Paradigma_TCDS
+          path: docs/assets/Libro_Paradigma_TCDS.pdf
+  deploy:
+    needs: latex
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+      - uses: actions/deploy-pages@v4
