@@ -1,0 +1,71 @@
+% !TEX program = xelatex
+\documentclass[12pt,openright]{book}
+
+% === Compilación moderna (xelatex) ===
+\usepackage{fontspec}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{microtype}
+\setmainfont{Latin Modern Roman}
+
+% Matemáticas
+\usepackage{amsmath,amssymb}
+
+% Tablas y figuras
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+
+% Estilo
+\usepackage{geometry}
+\geometry{a4paper, left=28mm, right=22mm, top=25mm, bottom=25mm}
+\usepackage{setspace}\onehalfspacing
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+% Hipervínculos
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  pdftitle={Teoría Cromodinámica Sincrónica (TCDS) — Obra Canónica},
+  pdfauthor={Genaro Carrasco Ozuna}
+}
+
+% === Encabezados ===
+\fancyhf{}\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{TCDS — Obra Canónica}
+
+% === Títulos ===
+\titleformat{\chapter}[display]{\bfseries\LARGE}{\chaptername\ \thechapter}{12pt}{\Large}
+\titleformat{\section}{\bfseries\large}{\thesection}{8pt}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{6pt}{}
+
+% === Macros coherentes con el repo ===
+\newcommand{\CGA}{CGA}
+\newcommand{\TCDS}{TCDS}
+\newcommand{\FET}{FET}
+\newcommand{\IPP}{IPP}
+\newcommand{\LI}{LI}
+\newcommand{\RMSESL}{RMSE\_SL} % alinea con métricas del sitio
+\newcommand{\ORCID}{\href{https://orcid.org/0009-0005-6358-9910}{0009-0005-6358-9910}}
+
+% === SINCRONÓN: usar sigma, no 'o' ===
+\newcommand{\sincronon}{\ensuremath{\sigma}}
+
+\begin{document}
+% ... (deja tu contenido igual)
+% Reemplaza todas las apariciones de \(o\) por \sincronon
+
+% Licenciamiento: deja texto, pero enlaza a archivos reales:
+% - docs/LICENSES/CC-BY-4.0.txt
+% - docs/LICENSES/CC-BY-NC-ND-4.0.txt
+% - docs/LICENSES/TCDS-Commercial-1.0.txt
+
+\end{document}
