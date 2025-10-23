@@ -1,0 +1,20 @@
+# Archivos temporales de LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+
+# Archivos de compilación
+*.pdf
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Excepción para el PDF publicado
+!/docs/assets/Libro_Paradigma_TCDS.pdf
