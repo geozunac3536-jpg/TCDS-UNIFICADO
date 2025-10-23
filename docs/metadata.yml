@@ -1,14 +1,9 @@
-title: "TCDS UNIFICADO"
-description: "Corpus integral TCDS + FARO + LBCU — Paradigma de coherencia universal."
-version: "1.0"
-author: "Genaro Carrasco Ozuna"
-topics:
-  - tcds
-  - lbcu
-  - faro
-  - coherencia-universal
-  - sigma-field
-  - sincronon
-  - sigmafet
-  - open-science
-  - json-ld
+title: "TCDS — Obra Canónica"
+description: "Libro canónico TCDS autocontenido."
+theme: jekyll-theme-cayman
+lang: "es-MX"
+url: "https://geozunac3536-jpg.github.io/TCDS-LIBRO"
+plugins: [jekyll-seo-tag, jekyll-sitemap]
+include: [index.md, robots.txt, sitemap.xml]
+markdown: kramdown
+kramdown: { input: GFM }
