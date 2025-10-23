@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TCDS UNIFICADO</title>
+  <link href="https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/feed.xml" rel="self"/>
+  <updated>2025-10-23T05:14:31Z</updated>
+  <id>https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/</id>
+  <entry>
+    <title>Publicación inicial</title>
+    <link href="https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/"/>
+    <updated>2025-10-23T05:14:31Z</updated>
+    <id>tag:tcds-unificado,init</id>
+    <summary>Portal unificado TCDS + FARO + LBCU</summary>
+  </entry>
+</feed>

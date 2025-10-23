@@ -1,0 +1,19 @@
+title: "TCDS UNIFICADO — Teoría Cromodinámica Sincrónica & LBCU"
+description: "Compendio integral: TCDS + FARO + LBCU."
+theme: jekyll-theme-cayman
+lang: "es-MX"
+url: "https://geozunac3536-jpg.github.io/TCDS-UNIFICADO"
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
+include:
+  - index.md
+  - metadata.yml
+  - schema.jsonld
+  - sitemap.xml
+  - robots.txt
+  - feed.xml
+  - tcds/
+  - faro/
+  - lbcu/
+  - ../assets/Libro_Paradigma_TCDS.pdf
+markdown: kramdown
+kramdown: { input: GFM }
