@@ -83,3 +83,9 @@
     © TCDS. Licencias combinadas según alcance de uso. Consulta los PDFs vinculados.
   </p>
 </div>
+# TCDS — Obra Canónica (repo autocontenido)
+
+Sitio público: https://geozunac3536-jpg.github.io/TCDS-LIBRO/  
+PDF directo: https://geozunac3536-jpg.github.io/TCDS-LIBRO/Libro_Paradigma_TCDS.pdf
+
+Compilación automática: GitHub Actions (xelatex).
