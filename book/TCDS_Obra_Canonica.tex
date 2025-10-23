@@ -1,30 +1,18 @@
 % !TEX program = xelatex
 \documentclass[12pt,openright]{book}
 
-% === Compilación moderna (xelatex) ===
+% Compilación moderna
 \usepackage{fontspec}
 \usepackage[spanish, es-tabla]{babel}
-\usepackage{microtype}
 \setmainfont{Latin Modern Roman}
+\usepackage{microtype}
 
-% Matemáticas
+% Matemáticas y utilidades
 \usepackage{amsmath,amssymb}
-
-% Tablas y figuras
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{booktabs}
-\usepackage{multicol}
-\usepackage{array}
-\usepackage{float}
-\usepackage{caption}
-
-% Estilo
-\usepackage{geometry}
-\geometry{a4paper, left=28mm, right=22mm, top=25mm, bottom=25mm}
+\usepackage{graphicx,longtable,booktabs,multicol,array,float,caption}
+\usepackage{geometry}\geometry{a4paper, left=28mm, right=22mm, top=25mm, bottom=25mm}
 \usepackage{setspace}\onehalfspacing
-\usepackage{titlesec}
-\usepackage{fancyhdr}
+\usepackage{titlesec,fancyhdr}
 
 % Hipervínculos
 \usepackage{hyperref}
@@ -36,36 +24,47 @@
   pdfauthor={Genaro Carrasco Ozuna}
 }
 
-% === Encabezados ===
+% Encabezados
 \fancyhf{}\pagestyle{fancy}
 \fancyhead[LE,RO]{\thepage}
 \fancyhead[RE]{\leftmark}
 \fancyhead[LO]{TCDS — Obra Canónica}
 
-% === Títulos ===
+% Títulos
 \titleformat{\chapter}[display]{\bfseries\LARGE}{\chaptername\ \thechapter}{12pt}{\Large}
 \titleformat{\section}{\bfseries\large}{\thesection}{8pt}{}
 \titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{6pt}{}
 
-% === Macros coherentes con el repo ===
-\newcommand{\CGA}{CGA}
-\newcommand{\TCDS}{TCDS}
-\newcommand{\FET}{FET}
-\newcommand{\IPP}{IPP}
-\newcommand{\LI}{LI}
-\newcommand{\RMSESL}{RMSE\_SL} % alinea con métricas del sitio
-\newcommand{\ORCID}{\href{https://orcid.org/0009-0005-6358-9910}{0009-0005-6358-9910}}
-
-% === SINCRONÓN: usar sigma, no 'o' ===
+% Macros
+\newcommand{\RMSESL}{RMSE\_SL}
 \newcommand{\sincronon}{\ensuremath{\sigma}}
 
-\begin{document}
-% ... (deja tu contenido igual)
-% Reemplaza todas las apariciones de \(o\) por \sincronon
+% --- URL pública del PDF generado por GitHub Pages (autocontenida) ---
+\newcommand{\PDFURL}{https://geozunac3536-jpg.github.io/TCDS-LIBRO/Libro_Paradigma_TCDS.pdf}
 
-% Licenciamiento: deja texto, pero enlaza a archivos reales:
-% - docs/LICENSES/CC-BY-4.0.txt
-% - docs/LICENSES/CC-BY-NC-ND-4.0.txt
-% - docs/LICENSES/TCDS-Commercial-1.0.txt
+\begin{document}
+
+% Portada
+\begin{titlepage}
+  \centering
+  {\Huge\bfseries Teoría Cromodinámica Sincrónica (TCDS)\par}
+  {\LARGE\bfseries Obra Canónica\par}
+  \vspace{1.2cm}
+  {\Large GENARO CARRASCO OZUNA\par}
+  \vfill
+  {\large Primera Edición, Versión 1.0 — 2025\par}
+  \vspace{0.7cm}
+  {\large \href{\PDFURL}{Abrir/descargar versión PDF publicada}}\par
+\end{titlepage}
+
+\frontmatter
+\tableofcontents
+\mainmatter
+
+\chapter{Introducción}
+Este libro es autocontenido. La versión publicada en línea está en: \href{\PDFURL}{\PDFURL}.
+
+% --- pega aquí el resto de tu contenido íntegro tal como lo enviaste ---
+% Nota: reemplaza cualquier \(o\) por \sincronon si te refieres al sincronón.
 
 \end{document}
