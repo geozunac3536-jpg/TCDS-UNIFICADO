@@ -1,39 +1,70 @@
-name: build-book
-on:
-  push:
-    branches: [ main ]
-    paths:
-      - 'book/**'
-      - '.github/workflows/latex.yml'
-jobs:
-  latex:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: xu-cheng/latex-action@v3
-        with:
-          working_directory: book
-          root_file: TCDS_Obra_Canonica.tex
-          latexmk_use_xelatex: true
-          extra_system_packages: "ghostscript"
-      - name: Copy PDF to docs/assets
-        run: |
-          mkdir -p docs/assets
-          cp book/TCDS_Obra_Canonica.pdf docs/assets/Libro_Paradigma_TCDS.pdf
-      - name: Upload artifact (PDF)
-        uses: actions/upload-artifact@v4
-        with:
-          name: Libro_Paradigma_TCDS
-          path: docs/assets/Libro_Paradigma_TCDS.pdf
-  deploy:
-    needs: latex
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./docs
-      - uses: actions/deploy-pages@v4
+% !TEX program = xelatex
+\documentclass[12pt,openright]{book}
+
+% Compilación moderna
+\usepackage{fontspec}
+\usepackage[spanish, es-tabla]{babel}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+
+% Matemáticas y utilidades
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,longtable,booktabs,multicol,array,float,caption}
+\usepackage{geometry}\geometry{a4paper, left=28mm, right=22mm, top=25mm, bottom=25mm}
+\usepackage{setspace}\onehalfspacing
+\usepackage{titlesec,fancyhdr}
+
+% Hipervínculos
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  pdftitle={Teoría Cromodinámica Sincrónica (TCDS) — Obra Canónica},
+  pdfauthor={Genaro Carrasco Ozuna}
+}
+
+% Encabezados
+\fancyhf{}\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{TCDS — Obra Canónica}
+
+% Títulos
+\titleformat{\chapter}[display]{\bfseries\LARGE}{\chaptername\ \thechapter}{12pt}{\Large}
+\titleformat{\section}{\bfseries\large}{\thesection}{8pt}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{6pt}{}
+
+% Macros
+\newcommand{\RMSESL}{RMSE\_SL}
+\newcommand{\sincronon}{\ensuremath{\sigma}}
+
+% --- URL pública del PDF generado por GitHub Pages (autocontenida) ---
+\newcommand{\PDFURL}{https://geozunac3536-jpg.github.io/TCDS-LIBRO/Libro_Paradigma_TCDS.pdf}
+
+\begin{document}
+
+% Portada
+\begin{titlepage}
+  \centering
+  {\Huge\bfseries Teoría Cromodinámica Sincrónica (TCDS)\par}
+  {\LARGE\bfseries Obra Canónica\par}
+  \vspace{1.2cm}
+  {\Large GENARO CARRASCO OZUNA\par}
+  \vfill
+  {\large Primera Edición, Versión 1.0 — 2025\par}
+  \vspace{0.7cm}
+  {\large \href{\PDFURL}{Abrir/descargar versión PDF publicada}}\par
+\end{titlepage}
+
+\frontmatter
+\tableofcontents
+\mainmatter
+
+\chapter{Introducción}
+Este libro es autocontenido. La versión publicada en línea está en: \href{\PDFURL}{\PDFURL}.
+
+% --- pega aquí el resto de tu contenido íntegro tal como lo enviaste ---
+% Nota: reemplaza cualquier \(o\) por \sincronon si te refieres al sincronón.
+
+\end{document}
