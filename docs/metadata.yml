@@ -1,9 +1,0 @@
-title: "TCDS — Obra Canónica"
-description: "Libro canónico TCDS autocontenido."
-theme: jekyll-theme-cayman
-lang: "es-MX"
-url: "https://geozunac3536-jpg.github.io/TCDS-LIBRO"
-plugins: [jekyll-seo-tag, jekyll-sitemap]
-include: [index.md, robots.txt, sitemap.xml]
-markdown: kramdown
-kramdown: { input: GFM }
