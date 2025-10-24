@@ -81,3 +81,19 @@ a{color:inherit;text-decoration:none}.container{max-width:1080px;margin:0 auto;p
     document.getElementById('pdf-viewer').src = path;
   }
 </script>
+<!-- Botones -->
+<button onclick="loadPDF('pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf')">📘 TMRCU consolidado</button>
+<button onclick="loadPDF('pdf/Tcds_250916_124942.pdf')">🧪 Sincronón σ</button>
+<button onclick="loadPDF('pdf/TCDS_AΩ.pdf')">🎛️ ΣFET / protocolo</button>
+<button onclick="loadPDF('pdf/Conciencia.pdf')">🧠 CSL-H</button>
+<button onclick="loadPDF('pdf/La_Realidad.pdf')">🌌 Coherencia universal</button>
+
+<!-- Visor embebido -->
+<iframe id="pdf-viewer" src="" width="100%" height="800px" style="border:none; margin-top:20px;"></iframe>
+
+<!-- Script -->
+<script>
+  function loadPDF(path) {
+    document.getElementById('pdf-viewer').src = path;
+  }
+</script>
