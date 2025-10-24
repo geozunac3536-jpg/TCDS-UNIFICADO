@@ -1,0 +1,3 @@
+# docs/licenses/NOTICE
+Copyright (c) Genaro Carrasco Ozuna
+Este producto incluye componentes regidos por Apache-2.0 y CC BY 4.0.
