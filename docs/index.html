@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Obras — TCDS</title>
+  <title>TCDS — UNIFICADO</title>
   <link rel="icon" href="data:,">
   <style>
     :root {
@@ -58,52 +58,86 @@
       cursor: pointer;
     }
     .btn:hover { border-color: var(--ring) }
-    .section-title {
-      margin-top: 32px;
-      font-size: 20px;
-      color: var(--accent2);
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .card {
+      background: linear-gradient(180deg, #121621, #0e1320);
+      border: 1px solid #1f2633;
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .badge {
+      font-size: 12px;
+      color: #a6b3c3;
+      border: 1px solid #2a3445;
+      border-radius: 9999px;
+      padding: 3px 10px;
+      display: inline-block;
     }
     .footer {
       margin: 28px 0 16px;
       color: #7f8a99;
       font-size: 14px;
     }
+    .small { font-size: 12px; color: #7f8a99 }
   </style>
 </head>
 <body>
   <div class="container">
     <nav class="nav">
-      <div class="h1" style="font-size:20px">TCDS — Obras</div>
+      <div class="h1" style="font-size:20px">TCDS — UNIFICADO</div>
       <div>
-        <a href="index.html">Inicio</a>
+        <a href="obras.html">Obras</a>
         <a href="licencias.html">Licencias</a>
         <a href="datos.html">Datos</a>
       </div>
     </nav>
 
     <section>
-      <h1 class="h1">Obras del Canon TCDS</h1>
-      <p class="p">Selecciona una obra para visualizarla directamente en esta página. El visor se actualiza sin recargar.</p>
+      <h1 class="h1">Canon TCDS: Σ-coherencia del átomo al cosmos</h1>
+      <p class="p">Portal autocontenido con acceso directo a tomos PDF y protocolos ΣFET/CSL-H.</p>
 
-      <!-- Sección: Formalismo -->
-      <div class="section-title">📐 Formalismo</div>
+      <!-- Botones dinámicos -->
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-        <button class="btn" onclick="loadPDF('pdf/Tcds_250916_124942.pdf')">Σ–χ · Lagrangiano</button>
+        <button class="btn" onclick="loadPDF('pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf')">📘 TMRCU consolidado</button>
+        <button class="btn" onclick="loadPDF('pdf/Tcds_250916_124942.pdf')">🧪 Sincronón σ</button>
+        <button class="btn" onclick="loadPDF('pdf/TCDS_AΩ.pdf')">🎛️ ΣFET / protocolo</button>
+        <button class="btn" onclick="loadPDF('pdf/Conciencia.pdf')">🧠 CSL-H</button>
+        <button class="btn" onclick="loadPDF('pdf/La_Realidad.pdf')">🌌 Coherencia universal</button>
       </div>
 
-      <!-- Sección: Hardware -->
-      <div class="section-title">🔧 Hardware</div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-        <button class="btn" onclick="loadPDF('pdf/TCDS_AΩ.pdf')">SYNCTRON / ΣFET</button>
-      </div>
+      <!-- Visor embebido -->
+      <iframe id="pdf-viewer" src="pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf" width="100%" height="800px" style="border:none;"></iframe>
+    </section>
 
-      <!-- Sección: Biología -->
-      <div class="section-title">🧬 Biología</div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-        <button class="btn" onclick="loadPDF('pdf/Conciencia.pdf')">CSL-H · Sincronograma</button>
+    <section style="margin-top:26px">
+      <div class="grid">
+        <div class="card"><span class="badge">Formalismo</span><h4>Σ–χ · Lagrangiano</h4>
+          <a class="btn" href="pdf/Tcds_250916_124942.pdf#page=1" target="_blank" rel="noopener">Abrir PDF →</a></div>
+        <div class="card"><span class="badge">Hardware</span><h4>SYNCTRON / ΣFET</h4>
+          <a class="btn" href="pdf/TCDS_AΩ.pdf#page=1" target="_blank" rel="noopener">Abrir PDF →</a></div>
+        <div class="card"><span class="badge">Biología</span><h4>CSL-H · Sincronograma</h4>
+          <a class="btn" href="pdf/Conciencia.pdf#page=1" target="_blank" rel="noopener">Abrir PDF →</a></div>
+        <div class="card"><span class="badge">Cosmología</span><h4>Coherencia 5ª dimensión</h4>
+          <a class="btn" href="pdf/La_Realidad.pdf#page=1" target="_blank" rel="noopener">Abrir PDF →</a></div>
       </div>
+    </section>
 
-      <!-- Sección: Cosmología -->
-      <div class="section-title">🌌 Cosmología</div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-        <button class="btn" onclick="loadPDF('pdf/La_Realidad.pdf')">
+    <footer class="footer">
+      <span>© Genaro Carrasco Ozuna — TCDS.</span>
+      <span style="float:right"><a href="licencias.html">Licencias</a></span>
+    </footer>
+  </div>
+
+  <!-- Script para visor dinámico -->
+  <script>
+    function loadPDF(path) {
+      document.getElementById('pdf-viewer').src = path;
+    }
+  </script>
+</body>
+</html>
