@@ -1,41 +1,135 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Obras — TCDS</title>
-<style>
-:root{--bg:#0b0d12;--card:#121621;--muted:#9aa4b2;--ring:#2de3ff}
-html,body{margin:0;background:#0b0d12;color:#e6edf3;font:16px/1.55 Inter,system-ui}
-a{color:inherit;text-decoration:none}.wrap{max-width:1080px;margin:0 auto;padding:24px}
-.h1{font-size:clamp(26px,4vw,40px);font-weight:800;background:linear-gradient(92deg,#00ffd0,#00a3ff,#9b5cff);-webkit-background-clip:text;background-clip:text;color:transparent}
-.section{margin:18px 0}.card{background:linear-gradient(180deg,#121621,#0e1320);border:1px solid #1f2633;border-radius:16px;padding:16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
-.btn{display:inline-flex;padding:10px 14px;border:1px solid #273042;border-radius:12px;background:#121621}.btn:hover{border-color:var(--ring)}
-.muted{color:var(--muted)}.nav a{margin-right:10px}
-</style></head><body><div class="wrap">
-<nav class="nav"><a href="index.html">← Inicio</a> <a href="licencias.html">Licencias</a> <a href="datos.html">Datos</a></nav>
-<h1 class="h1">Obras del Canon TCDS</h1>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Obras — TCDS</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #121621;
+      --muted: #9aa4b2;
+      --accent: #00ffd0;
+      --accent2: #00a3ff;
+      --ring: #2de3ff;
+    }
+    * { box-sizing: border-box }
+    html, body {
+      margin: 0;
+      background: var(--bg);
+      color: #e6edf3;
+      font: 16px/1.55 system-ui, Inter, Segoe UI;
+    }
+    a { color: inherit; text-decoration: none }
+    .container { max-width: 1080px; margin: 0 auto; padding: 24px }
+    .nav {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+    }
+    .nav a {
+      padding: 8px 12px;
+      border-radius: 12px;
+      background: var(--card);
+      border: 1px solid #1f2633;
+    }
+    .nav a:hover { border-color: var(--ring) }
+    .h1 {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      line-height: 1.1;
+      background: linear-gradient(92deg, var(--accent), var(--accent2), #9b5cff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .p { color: var(--muted) }
+    .btn {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 16px;
+      border-radius: 14px;
+      border: 1px solid #273042;
+      background: var(--card);
+      cursor: pointer;
+    }
+    .btn:hover { border-color: var(--ring) }
+    .section-title {
+      margin-top: 32px;
+      font-size: 20px;
+      color: var(--accent2);
+    }
+    .footer {
+      margin: 28px 0 16px;
+      color: #7f8a99;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="h1" style="font-size:20px">TCDS — Obras</div>
+      <div>
+        <a href="index.html">Inicio</a>
+        <a href="licencias.html">Licencias</a>
+        <a href="datos.html">Datos</a>
+      </div>
+    </nav>
 
-<div class="section"><h3>Base teórica</h3><div class="grid">
-  <div class="card"><h4>TMRCU consolidado</h4><p class="muted">Evolución hacia Σ-coherencia.</p>
-    <a class="btn" href="pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-  <div class="card"><h4>Zigma / 5 Decretos</h4><p class="muted">Ontología CGA, χ, φ, Q, Σ.</p>
-    <a class="btn" href="pdf/Zigma.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-</div></div>
+    <section>
+      <h1 class="h1">Obras del Canon TCDS</h1>
+      <p class="p">Selecciona una obra para visualizarla directamente en esta página. El visor se actualiza sin recargar.</p>
 
-<div class="section"><h3>Formalismo Σ–χ y σ</h3><div class="grid">
-  <div class="card"><h4>Predicción del Sincronón</h4><p class="muted">m<sub>σ</sub> y acoplos.</p>
-    <a class="btn" href="pdf/Tcds_250916_124942.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-  <div class="card"><h4>Velocidad de la luz</h4><p class="muted">CGA y escalas de Planck.</p>
-    <a class="btn" href="pdf/VELOCIDAD_DE_LA_LUZ.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-</div></div>
+      <!-- Sección: Formalismo -->
+      <div class="section-title">📐 Formalismo</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="btn" onclick="loadPDF('pdf/Tcds_250916_124942.pdf')">Σ–χ · Lagrangiano</button>
+      </div>
 
-<div class="section"><h3>Aplicaciones</h3><div class="grid">
-  <div class="card"><h4>ΣFET / SYNCTRON</h4><p class="muted">Protocolo, KPIs, locking.</p>
-    <a class="btn" href="pdf/TCDS_AΩ.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-  <div class="card"><h4>Conciencia · CSL-H</h4><p class="muted">Sincronograma y CNH.</p>
-    <a class="btn" href="pdf/Conciencia.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-  <div class="card"><h4>La Realidad · Síntesis</h4><p class="muted">Coherencia como 5ª dimensión.</p>
-    <a class="btn" href="pdf/La_Realidad.pdf" target="_blank" rel="noopener">Abrir PDF</a></div>
-</div></div>
+      <!-- Sección: Hardware -->
+      <div class="section-title">🔧 Hardware</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="btn" onclick="loadPDF('pdf/TCDS_AΩ.pdf')">SYNCTRON / ΣFET</button>
+      </div>
 
-<p class="muted">Verifica nombres en <code>/docs/pdf/</code>. Ajusta si difieren.</p>
-</div></body></html>
+      <!-- Sección: Biología -->
+      <div class="section-title">🧬 Biología</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="btn" onclick="loadPDF('pdf/Conciencia.pdf')">CSL-H · Sincronograma</button>
+      </div>
+
+      <!-- Sección: Cosmología -->
+      <div class="section-title">🌌 Cosmología</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="btn" onclick="loadPDF('pdf/La_Realidad.pdf')">Coherencia 5ª dimensión</button>
+      </div>
+
+      <!-- Sección: Obra consolidada -->
+      <div class="section-title">📘 Obra científica consolidada</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <button class="btn" onclick="loadPDF('pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf')">TMRCU · Canon completo</button>
+      </div>
+
+      <!-- Visor embebido -->
+      <iframe id="pdf-viewer" src="pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf" width="100%" height="800px" style="border:none;"></iframe>
+    </section>
+
+    <footer class="footer">
+      <span>© Genaro Carrasco Ozuna — TCDS.</span>
+      <span style="float:right"><a href="licencias.html">Licencias</a></span>
+    </footer>
+  </div>
+
+  <!-- Script -->
+  <script>
+    function loadPDF(path) {
+      document.getElementById('pdf-viewer').src = path;
+    }
+  </script>
+</body>
+</html>
