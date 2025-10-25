@@ -106,6 +106,38 @@
     function loadPDF(path) {
       document.getElementById('pdf-viewer').src = path;
     }
-  </script>
+  <script>
+  const pdfFiles = [
+    "300pagsTMRCU_Obra_Cientifica_Consolidada.pdf",
+    "Zigma_Decretos.pdf",
+    "Prediccion_del_Dato.pdf",
+    "Velocidad_de_la_Luz.pdf",
+    "XPEF_SYNCRETON.pdf",
+    "Conciencia.pdf",
+    "La_Realidad.pdf"
+  ];
+
+  const missing = [];
+
+  async function validatePDFs() {
+    for (const file of pdfFiles) {
+      const url = `pdf/${file}`;
+      try {
+        const res = await fetch(url, { method: "HEAD" });
+        if (!res.ok) missing.push(file);
+      } catch (err) {
+        missing.push(file);
+      }
+    }
+
+    if (missing.length > 0) {
+      const msg = "⚠️ Archivos faltantes en /docs/pdf:\n\n" + missing.join("\n");
+      alert(msg);
+    }
+  }
+
+  // Ejecutar al cargar la página
+  window.addEventListener("DOMContentLoaded", validatePDFs);
+</script>
 </body>
 </html>
