@@ -1,21 +1,25 @@
-
-
 TCDS — UNIFICADO
 
 Canon científico modular y autocontenido que integra formalismo, hardware, biología y cosmología bajo el marco de la Teoría Cromodinámica Sincrónica (TCDS). Este repositorio consolida obras, protocolos y licencias en un portal web reproducible, auditable y legalmente protegido.
 
-📚 Acceso directo a obras
+📚 Portal interactivo de obras
 
-El portal incluye un visor embebido que permite navegar entre los siguientes tomos PDF sin salir de la página:
-
-- 📘 TMRCU consolidado — Obra científica completa
-- 🧪 Sincronón σ — Formalismo Σ–χ · Lagrangiano
-- 🎛️ ΣFET / protocolo — Hardware experimental SYNCTRON
-- 🧠 CSL-H — Sincronograma biológico
-- 🌌 Coherencia universal — Cosmología y 5ª dimensión
+El sitio web incluye un visor embebido que permite visualizar múltiples tomos PDF directamente en la página. Los botones superiores permiten cambiar de obra sin recargar el sitio.
 
 Accede al portal aquí:  
 👉 https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/
+
+Obras disponibles:
+
+| Obra | Descripción | Archivo PDF |
+|------|-------------|-------------|
+| 📘 TMRCU consolidado | Obra científica completa | 300pagsTMRCUObraCientifica_Consolidada.pdf |
+| 🧪 Sincronón σ | Formalismo Σ–χ · Lagrangiano | Tcds250916124942.pdf |
+| 🎛️ ΣFET / protocolo | Hardware experimental SYNCTRON | TCDS_AΩ.pdf |
+| 🧠 CSL-H | Sincronograma biológico | Conciencia.pdf |
+| 🌌 Coherencia universal | Cosmología y 5ª dimensión | La_Realidad.pdf |
+
+> Todos los archivos están ubicados en la carpeta docs/pdf/ y se cargan dinámicamente en el visor.
 
 🛡️ Licencias integradas
 
@@ -33,9 +37,9 @@ Consulta los textos completos en docs/licenses/.
 - Protección legal y trazabilidad operativa
 - Integración de metadatos y citación académica (CITATION.cff, schema.jsonld)
 - Compatible con GitHub Pages y navegación móvil
-`
 
 📁 Estructura del repositorio
+
 `
 TCDS-UNIFICADO/
 ├── docs/
@@ -50,9 +54,9 @@ TCDS-UNIFICADO/
 ├── README.md
 └── LICENSE
 `
-`
+
 ✍️ Autor
-`
+
 Genaro Carrasco Ozuna  
 ORCID: https://orcid.org/0009-0005-6358-9910
 
@@ -69,3 +73,5 @@ Tu apoyo permite:
 - Mantener el portal TCDS-UNIFICADO accesible y actualizado.
 - Defender la integridad logística y documental en contextos reales.
 `
+
+---
