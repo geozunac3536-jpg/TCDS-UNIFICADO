@@ -100,7 +100,26 @@
     <section>
       <h1 class="h1">Canon TCDS: Σ-coherencia del átomo al cosmos</h1>
       <p class="p">Portal autocontenido con acceso directo a tomos PDF y protocolos ΣFET/CSL-H.</p>
+<!-- Botones -->
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px">
+  <button class="btn" onclick="loadPDF('pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf')">📘 TMRCU consolidado</button>
+  <button class="btn" onclick="loadPDF('pdf/Tcds_250916_124942.pdf')">🧪 Sincronón σ</button>
+  <button class="btn" onclick="loadPDF('pdf/TCDS_AΩ.pdf')">🎛️ ΣFET / protocolo</button>
+  <button class="btn" onclick="loadPDF('pdf/Conciencia.pdf')">🧠 CSL-H</button>
+  <button class="btn" onclick="loadPDF('pdf/La_Realidad.pdf')">🌌 Coherencia universal</button>
+</div>
 
+<!-- Visor embebido -->
+<div style="width:100%;height:calc(100vh - 300px);overflow:hidden;border-radius:12px;border:1px solid #1f2633">
+  <iframe id="pdf-viewer" src="pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf" width="100%" height="100%" style="border:none;"></iframe>
+</div>
+
+<!-- Script -->
+<script>
+  function loadPDF(path) {
+    document.getElementById('pdf-viewer').src = path;
+  }
+</script>
       <!-- Botones dinámicos -->
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
         <button class="btn" onclick="loadPDF('pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf')">📘 TMRCU consolidado</button>
