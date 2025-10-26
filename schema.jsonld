@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Canon TCDS: Σ-coherencia del átomo al cosmos",
+  "author": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "TCDS-UNIFICADO"
+    }
+  },
+  "datePublished": "2025-10-25",
+  "inLanguage": "es",
+  "license": "https://opensource.org/licenses/MIT",
+  "keywords": [
+    "Canon TCDS",
+    "coherencia científica",
+    "documentación modular",
+    "defensa operativa",
+    "metadatos semánticos",
+    "indexación académica",
+    "licenciamiento legal",
+    "reproducibilidad científica"
+  ],
+  "url": "https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "pendiente-de-Zenodo"
+  },
+  "description": "Repositorio unificado del Canon TCDS, integrando coherencia científica, legal y operativa desde el átomo al cosmos. Optimizado para trazabilidad académica, defensa documental y reproducibilidad técnica."
+}
