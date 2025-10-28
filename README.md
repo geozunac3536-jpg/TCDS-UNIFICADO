@@ -41,7 +41,7 @@ Obras disponibles
 | [🧪 Sincronón σ](docs/pdf/Prediccion_del_dato.pdf)         | [Formalismo Σ–χ · Lagrangiano](docs/pdf/Tcds250916124942.pdf)                                 |
 | [🎛️ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)   | Hardware experimental [SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)                                             |
 | [🧠 CSL-H](docs/pdf/Tcds_250916_124942.pdf)               | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
-| 🌌 Coherencia universal  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
+| [🌌 Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf)  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
 
 > Todos los archivos están ubicados en la carpeta
 -[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
