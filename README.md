@@ -4,8 +4,8 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 📄 Documento Central
 
-- [Ver PDF embebido](doc/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
-- [Descargar PDF](doc/pdf/La_realidad.pdf)
+- [Ver PDF embebido](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
+- [Descargar PDF](docs/pdf/La_realidad.pdf)
 
 ## 📚 Citación
 
@@ -37,14 +37,14 @@ El sitio web incluye un visor embebido que permite visualizar múltiples tomos P
 Obras disponibles
 | Obra                      | Descripción                          | Archivo PDF                                               |
 |---------------------------|--------------------------------------|-----------------------------------------------------------|
-| 📘 TMRCU consolidado      | [Obra científica completa](doc/pdf/300pagsTMRCUObraCientifica_Consolidada.pdf)           |
-| 🧪 Sincronón σ            | [Formalismo Σ–χ · Lagrangiano](doc/pdf/Tcds250916124942.pdf)                                 |
-| 🎛️ ΣFET / protocolo      | Hardware experimental [SYNCTRON](doc/pdf/TCDS_AΩ.pdf)                                             |
-| 🧠 CSL-H                  | [Sincronograma biológico](doc/pdf/Conciencia.pdf)                                          |
-| 🌌 Coherencia universal  | [Cosmología y 5ª dimensión](doc/pdf/La_realidad.pdf)                                         |
+| 📘 TMRCU consolidado      | [Obra Consolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)           |
+| 🧪 Sincronón σ            | [Formalismo Σ–χ · Lagrangiano](docs/pdf/Tcds250916124942.pdf)                                 |
+| 🎛️ ΣFET / protocolo      | Hardware experimental [SYNCTRON](docs/pdf/TCDS_AΩ.pdf)                                             |
+| 🧠 CSL-H                  | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
+| 🌌 Coherencia universal  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
 
 > Todos los archivos están ubicados en la carpeta
--[DOCUMENTOS](doc/pdf/) y se cargan dinámicamente en el visor.
+-[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
 
 ---
 
