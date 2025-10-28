@@ -4,8 +4,8 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 📄 Documento Central
 
-- [Ver PDF embebido](./canon-tcds.pdf)
-- [Descargar PDF](./canon-tcds.pdf)
+- [Ver PDF embebido](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
+- [Descargar PDF](docs/pdf/La_realidad.pdf)
 
 ## 📚 Citación
 
@@ -39,11 +39,11 @@ Obras disponibles
 
 | Obra                      | Descripción                          | Archivo PDF                                               |
 |---------------------------|--------------------------------------|-----------------------------------------------------------|
-| 📘 TMRCU consolidado      | Obra científica completa             | 300pagsTMRCUObraCientifica_Consolidada.pdf           |
-| 🧪 Sincronón σ            | Formalismo Σ–χ · Lagrangiano         | Tcds250916124942.pdf                                 |
-| 🎛️ ΣFET / protocolo      | Hardware experimental SYNCTRON       | TCDS_AΩ.pdf                                             |
-| 🧠 CSL-H                  | Sincronograma biológico              | Conciencia.pdf                                          |
-| 🌌 Coherencia universal  | Cosmología y 5ª dimensión            | La_Realidad.pdf                                         |
+| 📘 TMRCU consolidado      | Obra científica completa             |300pagsTMRCUObraCientifica_Consolidada.pdf           |
+| 🧪 Sincronón σ            | Formalismo Σ–χ · Lagrangiano         |Tcds250916124942.pdf                                 |
+| 🎛️ ΣFET / protocolo      | Hardware experimental SYNCTRON       |TCDS_AΩ.pdf                                             |
+| 🧠 CSL-H                  | Sincronograma biológico              |Conciencia.pdf                                          |
+| 🌌 Coherencia universal  | Cosmología y 5ª dimensión            |La_realidad.pdf                                         |
 
 > Todos los archivos están ubicados en la carpeta docs/pdf/ y se cargan dinámicamente en el visor.
 
@@ -57,7 +57,7 @@ Este repositorio aplica un marco de licencias mixtas:
 - CC BY 4.0 → textos científicos  
 - TCDS Commercial 1.0 → usos con fines de lucro
 
-Consulta los textos completos en docs/licenses/.
+Consulta los textos completos en docs/pdf/licenses/.
 
 ---
 
