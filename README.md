@@ -34,19 +34,17 @@ El sitio web incluye un visor embebido que permite visualizar múltiples tomos P
 -[TCDS-UNIFICADO](https://geozunac3536-jpg.github.io/TCDS-UNIFICADO)
 
 ---
-
 Obras disponibles
-
 | Obra                      | Descripción                          | Archivo PDF                                               |
 |---------------------------|--------------------------------------|-----------------------------------------------------------|
-| 📘 TMRCU consolidado      | Obra científica completa             |300pagsTMRCUObraCientifica_Consolidada.pdf           |
-| 🧪 Sincronón σ            | Formalismo Σ–χ · Lagrangiano         |Tcds250916124942.pdf                                 |
-| 🎛️ ΣFET / protocolo      | Hardware experimental SYNCTRON       |TCDS_AΩ.pdf                                             |
-| 🧠 CSL-H                  | Sincronograma biológico              |Conciencia.pdf                                          |
-| 🌌 Coherencia universal  | Cosmología y 5ª dimensión            |La_realidad.pdf                                         |
+| 📘 TMRCU consolidado      | [Obra científica completa](300pagsTMRCUObraCientifica_Consolidada.pdf)           |
+| 🧪 Sincronón σ            | [Formalismo Σ–χ · Lagrangiano](Tcds250916124942.pdf)                                 |
+| 🎛️ ΣFET / protocolo      | Hardware experimental [SYNCTRON](TCDS_AΩ.pdf)                                             |
+| 🧠 CSL-H                  | [Sincronograma biológico](Conciencia.pdf)                                          |
+| 🌌 Coherencia universal  | [Cosmología y 5ª dimensión](La_realidad.pdf)                                         |
 
 > Todos los archivos están ubicados en la carpeta
--[DOCUMENTOS](docs/pdf/)] y se cargan dinámicamente en el visor.
+-[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
 
 ---
 
