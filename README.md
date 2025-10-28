@@ -9,7 +9,7 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 📚 Citación
 
-> Carrasco Ozuna, Genaro (2025). *Canon TCDS: Σ-coherencia del átomo al cosmos*. TCDS-UNIFICADO. Disponible en: https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/. ORCID: [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910). Licencia: MIT. DOI: pendiente de Zenodo.
+> Carrasco Ozuna, Genaro (2025). *Canon TCDS: Σ-coherencia del átomo al cosmos*. TCDS-UNIFICADO. Disponible en: https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/. ORCID: [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910). Licencia: MIT. DOI: .
 
 ## 🔐 Licencia
 
@@ -18,7 +18,7 @@ Este trabajo está licenciado bajo los términos de la [Licencia MIT](./LICENSE)
 ## 🔗 Enlaces Relacionados
 
 - [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)
-- [Sincronón](https://geozunac3536-jpg.github.io/SINCRONON/)
+
 - [ORCID](https://orcid.org/0009-0005-6358-9910)
 TCDS — UNIFICADO
 
@@ -30,8 +30,8 @@ Canon científico modular y autocontenido que integra formalismo, hardware, biol
 
 El sitio web incluye un visor embebido que permite visualizar múltiples tomos PDF directamente en la página. Los botones superiores permiten cambiar de obra sin recargar el sitio.
 
-🔗 Accede al portal:  
-https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/
+🔗 Accede al portal: 
+-[TCDS-UNIFICADO](https://geozunac3536-jpg.github.io/TCDS-UNIFICADO)
 
 ---
 
@@ -45,7 +45,8 @@ Obras disponibles
 | 🧠 CSL-H                  | Sincronograma biológico              |Conciencia.pdf                                          |
 | 🌌 Coherencia universal  | Cosmología y 5ª dimensión            |La_realidad.pdf                                         |
 
-> Todos los archivos están ubicados en la carpeta docs/pdf/ y se cargan dinámicamente en el visor.
+> Todos los archivos están ubicados en la carpeta
+-[DOCUMENTOS](docs/pdf/)] y se cargan dinámicamente en el visor.
 
 ---
 
@@ -57,7 +58,9 @@ Este repositorio aplica un marco de licencias mixtas:
 - CC BY 4.0 → textos científicos  
 - TCDS Commercial 1.0 → usos con fines de lucro
 
-Consulta los textos completos en docs/pdf/licenses/.
+Consulta los textos completos en 
+- [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)
+
 
 ---
 
@@ -66,32 +69,12 @@ Consulta los textos completos en docs/pdf/licenses/.
 - Modularidad semántica y reproducibilidad  
 - Protección legal y trazabilidad operativa  
 - Integración de metadatos y citación académica (CITATION.cff, schema.jsonld)  
-- Compatible con GitHub Pages y navegación móvil
-
----
-
-📁 Estructura del repositorio
-
-`
-TCDS-UNIFICADO/
-├── docs/
-│   ├── index.html          # Portal principal con visor embebido
-│   ├── obras.html          # Navegación temática por obra
-│   ├── licencias.html      # Textos legales
-│   ├── datos.html          # Datos y esquemas
-│   ├── pdf/                # Archivos PDF reales
-│   └── licenses/           # Archivos de licencia
-├── CITATION.cff
-├── schema.jsonld
-├── README.md
-└── LICENSE
-`
----
+- Compatible con GitHub Pages y navegación --
 
 ✍️ Autor
 
 Genaro Carrasco Ozuna  
-ORCID: https://orcid.org/0009-0005-6358-9910
+- [ORCID:](https://orcid.org/0009-0005-6358-9910)
 
 ---
 
@@ -100,7 +83,7 @@ ORCID: https://orcid.org/0009-0005-6358-9910
 Este proyecto está abierto a contribuciones voluntarias que fortalezcan la defensa científica, legal y operativa del canon TCDS.
 
 Apoya directamente vía GitHub Sponsors:  
-github.com/sponsors/geozunac3536-jpg
+[Sponsor](github.com/sponsors/geozunac3536-jpg)
 
 Tu apoyo permite:
 
@@ -126,4 +109,4 @@ Contacto: +52 271 140 8336 · geozunac3536@gmail.com
 - **Biología**: CSL-H y sincronograma.
 
 ### Palabras clave
-TCDS, TMRCU, sincronón, ΣFET, CSL-H, coherencia, Σ–χ, Kuramoto, Stuart-Landau, Arnold tongues, Spin-Σ, IPS, Canon Paradigmático.
+-[v1.0.0](TCDS,TMRCU,sincronón,ΣFET,CSL-H,coherencia,Σχ,Kuramoto,StuartLandau,Arnoldtongues,SpinΣ,IPS,Canon,Paradigmatico)
