@@ -105,7 +105,4 @@ Contacto: +52 271 140 8336 · geozunac3536@gmail.com
 - **TMRCU**: Cinco Decretos (Q, CGA, φ, χ, Σ).  
 - **TCDS**: formalismo Σ–χ, sincronón (σ), curvatura efectiva \(R \propto \nabla^2 \Sigma\).  
 - **Ingeniería**: ΣFET, bancos ∇Σ, métricas Σ (LI, R(t), κΣ).  
-- **Biología**: CSL-H y sincronograma.
-
-### Palabras clave
--[v1.0.0](TCDS,TMRCU,sincronón,ΣFET,CSL-H,coherencia,Σχ,Kuramoto,StuartLandau,Arnoldtongues,SpinΣ,IPS,Canon,Paradigmatico)
+- **Biología**: CSL-H y )
