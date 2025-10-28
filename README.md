@@ -35,7 +35,7 @@ El sitio web incluye un visor embebido que permite visualizar múltiples tomos P
 
 ---
 Obras disponibles
-| Obra                      | Descripción                          | Archivo PDF                                               |
+| Obra                      | USO                         | EXPERIMENTAL                                               |
 |---------------------------|--------------------------------------|-----------------------------------------------------------|
 | [📘 TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf)  | [ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)           |
 | [🧪 Sincronón σ](docs/pdf/Tcds_250916_124942)         | [Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)                                 |
