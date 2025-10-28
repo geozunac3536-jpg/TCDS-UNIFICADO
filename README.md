@@ -4,8 +4,8 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 📄 Documento Central
 
-- [Ver PDF embebido](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
-- [Descargar PDF](docs/pdf/La_realidad.pdf)
+- [CANÓNICO](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
+- [APLICACIÓN HUMANA](docs/pdf/La_realidad.pdf)
 
 ## 📚 Citación
 
