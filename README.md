@@ -38,9 +38,9 @@ Obras disponibles
 | Obra                      | Descripción                          | Archivo PDF                                               |
 |---------------------------|--------------------------------------|-----------------------------------------------------------|
 | 📘 TMRCU consolidado      | [Obra Consolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)           |
-| 🧪 Sincronón σ            | [Formalismo Σ–χ · Lagrangiano](docs/pdf/Tcds250916124942.pdf)                                 |
+| [🧪 Sincronón σ](Prediccion_del_Dato.pdf)         | [Formalismo Σ–χ · Lagrangiano](docs/pdf/Tcds250916124942.pdf)                                 |
 | 🎛️ ΣFET / protocolo      | Hardware experimental [SYNCTRON](docs/pdf/TCDS_AΩ.pdf)                                             |
-| 🧠 CSL-H                  | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
+| [🧠 CSL-H](                 | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
 | 🌌 Coherencia universal  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
 
 > Todos los archivos están ubicados en la carpeta
