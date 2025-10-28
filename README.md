@@ -40,7 +40,7 @@ Obras disponibles
 | [📘 TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf)  | [ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)           |
 | [🧪 Sincronón σ](docs/pdf/Tcds_250916_124942)         | [Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)                                 |
 | [🎛️ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)   | [Hardware experimental](docs/pdf/Σ-FET_TRANSISTOR_DE_COHERENCIA.pdf) [SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)                                             |
-| [🧠 CSL-H](docs/pdf/Tcds_250916_124942.pdf)               | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
+| [🧠 CSL-H](docs/pdf/Instructivo_Sincronograma_CSLH_Absoluto.pdf)               | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
 | [🌌 Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf)  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
 
 > Todos los archivos están ubicados en la carpeta
