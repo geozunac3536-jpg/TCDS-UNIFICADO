@@ -17,7 +17,7 @@ Este trabajo está licenciado bajo los términos de la [Licencia MIT](./LICENSE)
 
 ## 🔗 Enlaces Relacionados
 
-- [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)
+- [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)|
 
 - [ORCID](https://orcid.org/0009-0005-6358-9910)
 TCDS — UNIFICADO
@@ -35,14 +35,19 @@ El sitio web incluye un visor embebido que permite visualizar múltiples tomos P
 
 ---
 Obras disponibles
-| Obra                      | USO                         | EXPERIMENTAL                                               |
-|---------------------------|--------------------------------------|-----------------------------------------------------------|
-| [📘 TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf)  | [ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)           |
-| [🧪 Sincronón σ](docs/pdf/Tcds_250916_124942.pdf)        | [Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)                                 |
-| [🎛️ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)   | |[Hardware experimental](docs/pdf/Σ-FET_TRANSISTOR_DE_COHERENCIA.pdf)|
-[SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)                                             |
-| [🧠 CSL-H](docs/pdf/Instructivo_Sincronograma_CSLH_Absoluto.pdf)               | [Sincronograma biológico](docs/pdf/Conciencia.pdf)                                          |
-| [🌌 Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf)  | [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)                                         |
+| Obra      | USO  | 
+| [📘 TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf) |
+|[ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf) |          
+| [🧪 Sincronón σ](docs/pdf/Tcds_250916_124942.pdf) |   
+|[Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)  |                             
+| [🎛️ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)  | 
+| [Hardware experimental](docs/pdf/Σ-FET_TRANSISTOR_DE_COHERENCIA.pdf)|
+|[SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)  |                                           |
+
+| [🧠 CSL-H](docs/pdf/Instructivo_Sincronograma_CSLH_Absoluto.pdf) |             
+| [Sincronograma biológico](docs/pdf/Conciencia.pdf)|                                          
+| [🌌 Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf) |
+| [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)  |                                       |
 
 > Todos los archivos están ubicados en la carpeta
 -[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
