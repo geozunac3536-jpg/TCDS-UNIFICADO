@@ -11,7 +11,7 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 📚 Citación
 
-> Carrasco Ozuna, Genaro (2025). *Canon TCDS: Σ-coherencia del átomo al cosmos*. TCDS-UNIFICADO. Disponible en: https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/. ORCID: [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910). Licencia: MIT. DOI: .
+> Carrasco Ozuna, Genaro (2025). *Canon TCDS: Σ-coherencia del átomo al cosmos*. TCDS-UNIFICADO. Disponible en: https://geozunac3536-jpg.github.io/TCDS-UNIFICADO/. ORCID: [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910). Licencia:[MIT](LICENSE.md). DOI: 
 
 ## 🔐 Licencia
 
@@ -21,8 +21,9 @@ Este trabajo está licenciado bajo los términos de la [Licencia MIT](LICENSE.md
 
 - [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)|
 
-- [ORCID](https://orcid.org/0009-0005-6358-9910)
-TCDS — UNIFICADO
+- [ORCID](https://orcid.org/0009-0005-6358-9910)https://orcid.org/0009-0005-6358-9910)
+  
+#TCDS — UNIFICADO
 
 Canon científico modular y autocontenido que integra formalismo, hardware, biología y cosmología bajo el marco de la Teoría Cromodinámica Sincrónica (TCDS). Este repositorio consolida obras, protocolos y licencias en un portal web reproducible, auditable y legalmente protegido.
 
@@ -32,25 +33,25 @@ Canon científico modular y autocontenido que integra formalismo, hardware, biol
 
 El sitio web incluye un visor embebido que permite visualizar múltiples tomos PDF directamente en la página. Los botones superiores permiten cambiar de obra sin recargar el sitio.
 
-🔗 Accede al portal: 
--[TCDS-UNIFICADO](https://geozunac3536-jpg.github.io/TCDS-UNIFICADO)
+➡️Accede al portal: 
+-[TCDS-PORTAL-DOCUMENTOS](https://github.com/geozunac3536-jpg/TCDS-Portal-de-Documentos)
 
 ---
-Obras disponibles
-| Obra      |
-| [📘 TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf) |
-|[ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf) | |[🧪 Sincronón σ](docs/pdf/Tcds_250916_124942.pdf) |   
-|[Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)  |                             
-| [🎛️ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)  | 
-| [Hardware experimental](docs/pdf/Σ-FET_TRANSISTOR_DE_COHERENCIA.pdf)|
-|[SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)  |                                           |
-| [🧠 CSL-H](docs/pdf/Instructivo_Sincronograma_CSLH_Absoluto.pdf) |             
-| [Sincronograma biológico](docs/pdf/Conciencia.pdf)|                                          
-| [🌌 Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf) |
-| [Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)  |                                       |
+➡️Obras disponibles
+✅️| [TMRCU consolidado](docs/pdf/Zigma_Decretos.pdf) 
+✅️|[ObraConsolidada](docs/pdf/300pagsTMRCU_Obra_Cientifica_Consolidada.pdf)
+✅️[Sincronón σ](docs/pdf/Tcds_250916_124942.pdf)    
+✅️[Formalismo Σ–χ · Lagrangiano](docs/pdf/1formalismo_lagrangiano.pdf)                        
+✅️ [ ΣFET / protocolo](/docs/pdf/XPEF_SYNCRETON.pdf)  | 
+✅️ [Hardware experimental](docs/pdf/Σ-FET_TRANSISTOR_DE_COHERENCIA.pdf)|
+✅️[SYNCTRON](docs/pdf/TCDS_ΑΩ.pdf)  |                                           |
+✅️[CSL-H](docs/pdf/Instructivo_Sincronograma_CSLH_Absoluto.pdf) |             
+✅️[Sincronograma biológico](docs/pdf/Conciencia.pdf)|                                          
+✅️[Coherencia universal](docs/pdf/VELOCIDAD_de_la_Luz.pdf) |
+✅️[Cosmología y 5ª dimensión](docs/pdf/La_realidad.pdf)  |                                       |
 
 > Todos los archivos están ubicados en la carpeta
--[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
+🔴-[DOCUMENTOS](docs/pdf/) y se cargan dinámicamente en el visor.
 
 ---
 
@@ -62,13 +63,13 @@ Este repositorio aplica un marco de licencias mixtas:
 - CC BY 4.0 → textos científicos  
 - TCDS Commercial 1.0 → usos con fines de lucro
 
-Consulta los textos completos en 
-- [TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)
+🔴Consulta los textos completos en 
+#[TCDS-LICENCIAS](https://geozunac3536-jpg.github.io/TCDS-LICENCIAS/)
 
 
 ---
 
-🧠 Filosofía y estructura
+🌐Filosofía y estructura
 
 - Modularidad semántica y reproducibilidad  
 - Protección legal y trazabilidad operativa  
@@ -77,12 +78,12 @@ Consulta los textos completos en
 
 ✍️ Autor
 
-Genaro Carrasco Ozuna  
+Genaro Carrasco Ozun  
 - [ORCID:](https://orcid.org/0009-0005-6358-9910)
 
 ---
 
-💖 Donaciones y apoyo estratégico
+🏁Donaciones y apoyo estratégico
 
 Este proyecto está abierto a contribuciones voluntarias que fortalezcan la defensa científica, legal y operativa del canon TCDS.
 
@@ -111,4 +112,4 @@ Contacto: +52 271 140 8336 · geozunac3536@gmail.com
 - **TCDS**: formalismo Σ–χ, sincronón (σ), curvatura efectiva \(R \propto \nabla^2 \Sigma\).  
 - **Ingeniería**: ΣFET, bancos ∇Σ, métricas Σ (LI, R(t), κΣ).  
 - **Biología**: CSL-H y )
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/geozunac3536)
+🔴[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/geozunac3536)
