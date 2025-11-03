@@ -111,3 +111,4 @@ Contacto: +52 271 140 8336 · geozunac3536@gmail.com
 - **TCDS**: formalismo Σ–χ, sincronón (σ), curvatura efectiva \(R \propto \nabla^2 \Sigma\).  
 - **Ingeniería**: ΣFET, bancos ∇Σ, métricas Σ (LI, R(t), κΣ).  
 - **Biología**: CSL-H y )
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/geozunac3536)
