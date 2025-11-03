@@ -15,7 +15,7 @@ Este repositorio unifica el Canon TCDS como marco de coherencia científica, leg
 
 ## 🔐 Licencia
 
-Este trabajo está licenciado bajo los términos de la [Licencia MIT](./LICENSE).
+Este trabajo está licenciado bajo los términos de la [Licencia MIT](LICENSE.md).
 
 ## 🔗 Enlaces Relacionados
 
