@@ -2,6 +2,7 @@
 # Canon TCDS: Σ-coherencia del átomo al cosmos
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17504243.svg)](https://doi.org/10.5281/zenodo.17504243)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17463045.svg)](https://doi.org/10.5281/zenodo.17463045)
+Nodo central: https://geozunac3536-jpg.github.io/TCDS-Convergencia/
 Este repositorio unifica el Canon TCDS como marco de coherencia científica, legal y operativa. Su objetivo es documentar, proteger y reproducir una arquitectura modular que articula desde fundamentos ontológicos hasta aplicaciones logísticas y normativas.
 
 ## 📄 Documento Central
